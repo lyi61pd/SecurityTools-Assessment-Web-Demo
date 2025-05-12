@@ -4,13 +4,15 @@ import { createRouter, createWebHistory } from 'vue-router'
 import ToolEvaluationTable from '@/components/ToolEvaluationTable.vue'
 import SASTEvaluationTable from '@/components/SASTEvaluationTable.vue'
 import ToolDetailPage from '@/components/ToolDetailPage.vue'
+import UnifiedEvaluationTable from '@/components/UnifiedEvaluationTable.vue'
 
 const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: ToolEvaluationTable,
-  },
+  { path: '/', component: UnifiedEvaluationTable },
+  // {
+  //   path: '/',
+  //   name: 'Home',
+  //   component: ToolEvaluationTable,
+  // },
   {
     path: '/sast',
     name: 'SAST',

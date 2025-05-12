@@ -1,7 +1,8 @@
-// src/plugins/naive.ts
 import {
     create,
+    NSelect,
     NButton,
+    NTag,
     NDataTable,
     NLayout,
     NLayoutHeader,
@@ -12,7 +13,9 @@ import {
   
   export const naive = create({
     components: [
+      NSelect,
       NButton,
+      NTag,
       NDataTable,
       NLayout,
       NLayoutHeader,
