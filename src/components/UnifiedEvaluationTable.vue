@@ -2,12 +2,41 @@
   <div class="flex flex-col min-h-screen bg-gray-50">
     <!-- 内容区域 -->
     <main class="flex-grow p-6">
+      
+      <n-card
+        size="large"
+        class="shadow-sm w-full"
+        style="margin: 0 auto; max-width: 100%; padding: 1rem 5vw;"
+      >
+      <div class="text-sm text-gray-700 leading-relaxed">
+        目前开源安全工具繁多，缺少一个完整的评估体系来对安全工具的各方面能力进行考量。
+        为了全面而客观地评估开源安全工具的安全能力，由<strong>开放原子开源基金会</strong>旗下的<strong>开源安全委员会</strong>发起，
+        由<strong>统信软件</strong>牵头，联合
+        <strong>阿里、百度、斗象、绿盟、蚂蚁、奇安信、水木羽林、赛迪</strong>共同推进此项目。
+        <br /><br />
+        <strong>SecurityTools-Assessment</strong> 致力于从多个维度对开源安全工具进行评估，衡量应用安全产品的能力优劣，
+        为安全产品的技术选型提供支持。
+        <br /><br />
+        项目地址：
+        <a
+          href="https://atomgit.com/securitytools-assessment/SecurityTools-Assessment"
+          class="text-blue-600 underline hover:text-blue-800"
+          target="_blank"
+        >
+          https://atomgit.com/securitytools-assessment/SecurityTools-Assessment
+        </a>
+    </div>
+
+      
+
+      </n-card>
       <n-card
         title="安全工具统一评估总览"
         size="large"
         class="shadow-sm w-full"
         style="margin: 0 auto; max-width: 100%; padding: 1rem 5vw;"
       >
+
         <!-- 分类 + 季度筛选 -->
         <div class="flex items-center justify-between mb-4">
           <n-select
@@ -52,6 +81,7 @@
         <div class="text-sm text-gray-700 leading-relaxed mb-8">
           本评估参考了标准测试集 <strong>OWASP Benchmark</strong>、<strong>Juliet Test Suite</strong> 以及实际开源项目样本，用于衡量准确性、性能与稳定性。评分采用统一标准量化，以确保工具间的横向可比性。
         </div>
+
       </n-card>
     </main>
 
