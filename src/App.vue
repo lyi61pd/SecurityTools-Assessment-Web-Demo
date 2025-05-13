@@ -4,7 +4,7 @@
       <n-layout-header class="bg-white shadow-sm border-b">
         <div class="max-w-screen-xl mx-auto flex items-center justify-between px-4 py-3">
           
-          <h1 class="text-xl font-semibold text-gray-800">
+          <h1 class="text-xl font-semibold text-gray-800" style="text-align: center;">
             安全工具评估系统
           </h1>
 
@@ -20,11 +20,9 @@
 
       <br/>
 
-      <footer class="w-full flex justify-center border-t py-4 bg-white">
-        <div class="text-gray-400 text-sm">
-          Powered by <strong>Uniontech</strong>
-        </div>
-      </footer>
+      <div class="text-gray-400 text-sm" style="text-align: center;">
+        Powered by <strong>Uniontech</strong>
+      </div>
 
     </n-layout>
   </n-message-provider>
