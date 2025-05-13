@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 import path from 'path' 
 
 export default defineConfig({
-  base: '/lyi61pd/',
+  base: '/SecurityTools-Assessment-WEB/',
   plugins: [vue()],
   resolve: {
     alias: {

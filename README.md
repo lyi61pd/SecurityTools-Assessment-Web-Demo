@@ -8,8 +8,8 @@ npm install
 npm run dev
 ```
 共两个演示页面
-- http://localhost:5174/lyi61pd/
-- http://localhost:5174/lyi61pd/tool/codeql
+- http://localhost:5174/SecurityTools-Assessment-WEB/
+- http://localhost:5174/SecurityTools-Assessment-WEB/tool/codeql
 
 # 部署
 先编译
