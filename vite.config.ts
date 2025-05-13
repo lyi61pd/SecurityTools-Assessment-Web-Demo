@@ -1,12 +1,13 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import path from 'path' // ← 添加这一行
-// https://vite.dev/config/
+import path from 'path' 
+
 export default defineConfig({
+  base: '/lyi61pd/',
   plugins: [vue()],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'src'), // ← 添加这一行
+      '@': path.resolve(__dirname, 'src'),
     },
   },
 })
